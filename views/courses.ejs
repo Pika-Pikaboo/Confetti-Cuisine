@@ -1,0 +1,14 @@
+<div class="courses-container">
+	<div class="sub-courses-container">
+		<div class="courses-left">
+			<img src="../images/food-1.jpg" alt="food">
+		</div>
+		<div class="courses-right">
+			<h1>Our Courses</h1>
+				<% offeredCourses.forEach(course => { %>
+				<h5> <%= course.title %> </h5>
+				<span>$ <%= course.cost %> </span>
+				<% }); %>
+		</div>
+	</div>
+</div>

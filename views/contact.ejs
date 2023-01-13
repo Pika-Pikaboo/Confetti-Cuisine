@@ -1,0 +1,40 @@
+<div class="courses-container">
+  <div class="sub-courses-container">
+    <div class="courses-left">
+      <img src="../images/food-3.jpg" alt="food" />
+    </div>
+    <div class="courses-right">
+      <form action="/subscribe" method="post" autocomplete="on">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            autocomplete="new-password"
+            required
+          />
+        </div>
+        <div>
+          <label for="zipcode">Zipcode</label>
+          <input
+            type="number"
+            name="zipCode"
+            id="zipcode"
+            pattern="[0-9]{5}"
+            required
+          />
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </div>
+</div>

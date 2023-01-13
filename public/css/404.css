@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100vh;
+	display: grid;
+	place-content: center;
+	font-family: Ubuntu;
+}
+
+.container {
+	width: 650px;
+	display: flex;
+	align-items: center;
+	column-gap: 1rem;
+	line-height: 1.65;
+}
+
+.container p {
+	font-size: 1.25rem;
+}
+
+.left {
+	flex-basis: 70%;
+}
+
+.right {
+	flex-basis: 30%;
+}
+
+.img-container {
+	max-width: 100%
+}
+
+.bg-image {
+	margin-bottom: -1rem;
+}
